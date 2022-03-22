@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    user-select: none;
+}
+
+.wrapper {
+    background-color: #222;
+    padding: 40px 60px;
+    color: #fff;
+}
+
+.wrapper h1 {
+    font-size: 70px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.height {
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.weight {
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.result {
+    user-select: text;
+}
+
+.btn {
+    font-size: 15px;
+    cursor: pointer;
+}
